@@ -58,3 +58,7 @@ kops rolling-update cluster $KOPS_NAME --cloudonly --force --yes
 ### Destroy everything!
 
 `terraform destroy`
+
+### Use Hashicorp Vault
+[https://github.com/aws-samples/aws-workshop-for-kubernetes/tree/master/04-path-security-and-networking/402-authentication-and-authorization#iam-container-roles-using-hashicorp-vault](Tutorial here)
+[https://www.cloudops.com/2018/03/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/](and here)
